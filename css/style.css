@@ -769,11 +769,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 90px;
 }
 
-#mentors .mentor .details a {
+#mentors .mentor .details h3 {
   color: #fff;
+  transition: 0.5s;
 }
 
-#mentors .mentor .details a:hover {
+#mentors .mentor .details h3:hover {
   color: #0080ff;
 }
 
@@ -796,26 +797,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#mentors-details .details .social a {
-  background: #e9edfb;
-  color: #112363;
-  line-height: 1;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  padding-top: 9px;
-}
-
-#mentors-details .details .social a:hover {
-  background: #f82249;
-  color: #fff;
-}
-
-#mentors-details .details .social a i {
-  font-size: 18px;
-}
 
 #mentors-details .details p {
   color: #112363;
