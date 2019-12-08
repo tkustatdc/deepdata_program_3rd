@@ -1022,6 +1022,117 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f82249;
 }
 
+/*--------------------------------------------------------------
+# workshop Section
+--------------------------------------------------------------*/
+
+#workshop {
+  padding: 60px 0;
+}
+
+
+#workshop .card {
+  background: #fff;
+  border-color: #fff;
+  border-radius: 15px;
+  margin: 0 15px;
+  padding: 15px 0 ;
+  padding-bottom:10px; 
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+
+#workshop .card h4 {
+  font-size: 30px;
+  font-weight: blod;
+  text-align: center;
+}
+
+
+#workshop .card p {
+  font-size: 20px;
+  color: #124173;
+  text-align: center;
+  line-height: 0px;
+}
+
+#workshop .card {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #fff solid 2px;
+}
+
+#workshop .card :hover {
+  border-bottom: #fff solid 2px;
+}
+
+
+#workshop .icon {
+  position: relative;
+  overflow: hidden;
+  /*width:150px;*/
+  height: 110px;
+  display: inline-block;
+  
+  margin: 25px 25px 25px 25px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 0px;
+  font-size: 12px;
+  font-family: "Open Sans","Raleway", Microsoft JhengHei,sans-serif;
+}
+
+
+/**
+ * The "shine" element
+ */
+
+#workshop .icon:after {
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+#workshop .icon:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: -30%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+/* Active state */
+
+#workshop .icon:active:after {
+  opacity: 0;
+}
+
+
 
 /*--------------------------------------------------------------
 # consultants Section
