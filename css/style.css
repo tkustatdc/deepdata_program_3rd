@@ -904,6 +904,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+#schedule .schedule-item i {
+  color: #FFD04A;
+}
+
+#schedule .schedule-item b {
+  color: #f82249;
+}
 /*--------------------------------------------------------------
 # apply Section
 --------------------------------------------------------------*/
